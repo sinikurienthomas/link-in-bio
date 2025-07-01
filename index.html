@@ -1,2 +1,131 @@
-<h1>My home page</h1>
-<body><h2>My link-in-bio</h2></body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sini Kurien Thomas's links</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+
+    <style>
+      /*
+      *{
+        border: 1px red dashed;
+      }
+      */
+
+      html{
+        min-height: 100%;
+      }
+
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: radial-gradient(circle at 20% 0%, #ff8b17, #e6751f, #cc6021, #b24d22, #963b1f, #7b2b1c, #601d16, #45100e); 
+        min-height: 100%;
+        color: rgba(255, 255, 255, 1.0);
+        font-family: "Raleway";
+          }
+
+      a{
+            color: rgba(255, 255, 255, 1.0);
+            text-decoration:none;
+       }
+
+       .item {
+        background-color: rgba(149, 123, 173, 0.5);
+        border-radius:1000px;
+        padding:5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+         }
+
+      .avatar-image{
+        width:128px;
+        height:128px;
+        border-radius: 128px;
+      } 
+     .images{
+        width:48px;
+        height:48px;
+        border-radius:48px;
+      }
+
+      .main-container{
+        max-width:640px;
+        margin:auto;
+      }
+
+      .image-row{
+        margin-bottom:20px;
+        text-align:center;
+      }
+
+      .name-row{
+        margin-bottom:30px;
+        text-align:center;
+        font-family:"Playfair Display";
+        font-size: 24px;
+        font-weight: 900;
+      }
+
+      .social-icons-row{
+        margin-bottom:30px;
+        display:flex;
+        justify-content:space-around;
+      }
+
+      .item{
+        margin-bottom:20px;
+        display:flex;
+        align-items: center;
+        
+      }
+
+      .link-text{
+        text-align:center;
+        flex-grow:1;
+      }
+
+      </style>
+  </head>
+    <body>
+      <div class="main-container">
+        <div class="image-row">
+          <img src="/Images/Img1.JPG" alt="Sini Kurien Thomas headshot" class ="avatar-image">
+        </div>
+       
+        <div class="name-row">
+          Sini Kurien Thomas
+        </div>
+        <div class="social-icons-row">
+          <a href="https://github.com/sinikurienthomas" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://facebook.com/sinikurienthomas" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/sinikurienthomas" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="links-row">
+          <div class="item">
+            <img src="/Images/Img2.jpg" alt="Teacher" class="images">
+            <a class="link-text" href="https://www.nu.edu/blog/qualities-of-a-good-teacher/" target="_blank">Qualities of a good teacher</a>
+          </div>
+
+          <div class="item">
+            <img src="Images/Img3.jpg" alt="Software Engineer" class="images">
+           <a class="link-text" href="https://medium.com/edf-data-and-tech/how-to-succeed-as-a-software-engineer-9f24e2055a7" target="_blank">How to succeed as a Software Engineer</a>
+          </div>
+
+          <div class="item">
+            <img src="Images/Img4.jpg" alt="Electronics Technician" class="images">
+            <a class="link-text" href ="https://www.4cornerresources.com/career-guides/electronics-technician/" target="_blank">Electronic Technician</a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
